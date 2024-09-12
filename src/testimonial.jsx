@@ -24,11 +24,11 @@ const Testimonial = () => {
 
   return (
     <section id="testimonial" className="relative w-full bg-[#07040E]">
-      <header className="h-[20vh] text-white text-center sm:text-left px-[5%] sm:px-[10%] pt-[2%]">
-        <span className="lg:text-[4.5rem] md:text-[3.5rem] sm:text-[3rem] xs:text-[2.5rem] font-semibold  inline-block leading-none m-0">
+      <header className=" text-white text-center sm:text-left px-[5%] sm:px-[10%] pt-[2%]">
+        <span className="text-[6vw] md:text-[4vw] font-semibold leading-none block">
           💬 HEAR FROM THOSE
         </span>
-        <span className="lg:text-[4.5rem] md:text-[3.5rem] sm:text-[3rem] xs:text-[2.5rem] font-semibold   inline-block leading-none m-0">
+        <span className="text-[6vw] md:text-[4vw] font-semibold leading-none block">
           I'VE WORKED WITH!{" "}
         </span>
       </header>
@@ -59,7 +59,7 @@ const Testimonial = () => {
             <img
               src={Quote}
               alt="Quote_symbol"
-              className="md:w-20 sm:w-10  xs:w-10 rotate-180 absolute right-[5%] sm:right-[10%] translate-y-[12rem]  sm:translate-y-[10rem] xs:translate-y-[12rem]"
+              className="md:w-20 sm:w-10  xs:w-10 rotate-180 absolute right-[5%] sm:right-[10%] md:translate-y-[15rem]  sm:translate-y-[10rem] xs:translate-y-[12rem]"
             />
             <div className="flex gap-2 pl-4">
               {testimonials.map((_, index) => (

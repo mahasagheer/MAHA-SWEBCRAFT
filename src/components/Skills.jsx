@@ -15,11 +15,11 @@ const Skills = () => {
     <>
       <section id="skills" className="w-full px-[8%] py-[2%]">
         <header className="text-black text-center">
-          <span className="lg:text-[4.5rem] md:text-[3.5rem] sm:text-[3rem] xs:text-[2.5rem] font-semibold  pl-[8%]  inline-block leading-none m-0">
+          <span className="text-[6vw] md:text-[4vw] font-semibold leading-none block">
             I SPECIALIZED IN A
           </span>
           <br />
-          <span className="lg:text-[4.5rem] md:text-[3.5rem] sm:text-[3rem] xs:text-[2.5rem]  font-semibold  pl-[8%]  inline-block leading-none m-0">
+          <span className="text-[6vw] md:text-[4vw] font-semibold leading-none block">
             RANGE OF 💪 SKILLS
           </span>
         </header>
