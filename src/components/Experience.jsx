@@ -1,4 +1,3 @@
-import React from "react";
 import Star from "../assets/star-1.png";
 
 const Experience = () => {
@@ -18,55 +17,64 @@ const Experience = () => {
         </header>
 
         <div className="w-full sm:w-[60%] pt-6 sm:pl-[2%]">
-          <img src={Star} alt="Star" className="w-12" />
+          <div className="flex items-center gap-4 md:text-xl text-base">
+               <img src={Star} alt="Star" className="w-8" />
+          <p>Associate Software Engineer – Codace Solutions Pvt. Ltd.</p>
+          </div>
+       
           <p
             data-aos="fade-down"
             data-aos-easing="ease-in-sine"
             data-aos-duration="2000"
             className="text-base  sm:text-lg py-4"
           >
-            I am currently doing an internship as a MERN stack developer, where
-            I am honing my skills in both frontend and backend technologies.
-            This experience is allowing me to gain practical knowledge in
-            building full-stack applications using MongoDB, Express, React, and
-            Node.js.
-          </p>
+Currently working on building responsive web applications with React.js, integrating RESTful APIs, and collaborating with cross-functional teams. Focused on delivering high-quality, scalable software solutions. </p>
         </div>
 
         <hr className="border-gray-600 my-4" />
 
         <div className="w-full sm:w-[60%] pt-6 sm:ml-[45%]">
-          <img src={Star} alt="Star" className="w-12" />
-          <p
+          <div className="flex items-center gap-4 md:text-xl text-base">
+               <img src={Star} alt="Star" className="w-8" />
+          <p> MERN Stack Intern – Codace Solutions Pvt. Ltd.</p>
+          </div>          <p
             data-aos="fade-down"
             data-aos-easing="ease-in-sine"
             data-aos-duration="2000"
             className="text-base sm:text-lg py-4"
           >
-            I have volunteered to teach C++ to students, focusing on developing
-            their logical thinking and problem-solving skills. This experience
-            has strengthened my ability to explain complex concepts in a clear
-            and approachable way.
-          </p>
+Completed a hands-on internship where I developed user-friendly interfaces, built backend APIs, and implemented MongoDB databases, laying a strong foundation in full-stack development.          </p>
         </div>
 
         <hr className="border-gray-600 my-4" />
 
         <div className="w-full sm:w-[60%] pt-6 sm:pl-[2%]">
-          <img src={Star} alt="Star" className="w-12" />
-          <p
+          <div className="flex items-center gap-4 md:text-xl text-base">
+               <img src={Star} alt="Star" className="w-8" />
+          <p>Web Development Bootcamp Participant – atomcamp</p>
+          </div>            <p
             data-aos="fade-down"
             data-aos-easing="ease-in-sine"
             data-aos-duration="2000"
             className="text-base sm:text-lg py-4"
           >
-            I have volunteered to teach computer science to intermediate
-            students, helping them get familiar with programming languages and
-            guiding them in building strong logic and problem-solving skills.
-            This experience has allowed me to inspire and mentor students in
-            developing a solid foundation in coding.
-          </p>
+Participated in an intensive two-month bootcamp focused on JavaScript, React, Node.js, Next.js and MongoDB. Built projects including a fully functional e-commerce site and a real-time chat application. </p>
         </div>
+               <hr className="border-gray-600 my-4" />
+
+        <div className="w-full sm:w-[60%] pt-6 sm:ml-[45%]">
+          <div className="flex items-center gap-4 md:text-xl text-base">
+               <img src={Star} alt="Star" className="w-8" />
+          <p> Teaching and Mentorship Experience</p>
+          </div>          <p
+            data-aos="fade-down"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            className="text-base sm:text-lg py-4"
+          >
+Volunteered to teach C++ and computer science to intermediate students, helping them develop logical thinking and problem-solving skills while refining my communication and teaching abilities. </p>
+        </div>
+
       </div>
     </>
   );

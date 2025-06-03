@@ -1,7 +1,7 @@
-import React from "react";
 import ProjectOne from "../assets/projectOne.png";
 import ProjectTwo from "../assets/projectTwo.png";
 import ProjectThree from "../assets/projectThree.png";
+import ProjectFour from "../assets/projectFour.png";
 import { RiArrowRightUpLine } from "@remixicon/react";
 
 const Projects = () => {
@@ -16,11 +16,58 @@ const Projects = () => {
             SOME EXCITING 👩‍💻 PROJECTS
           </span>
           <span className="text-[6vw] md:text-[4vw] font-semibold leading-none block">
-            I'VE DONE
+            I{"'"}VE DONE
           </span>
         </header>
 
         <div className="flex  overflow-hidden flex-wrap justify-between gap-4 mt-8">
+           <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            className="border-2 border-black w-full sm:w-[48%] flex flex-col rounded-3xl p-4 sm:p-6"
+          >
+            <img
+              src={ProjectFour}
+              alt="E-commerce Website"
+              className="w-full h-auto rounded-lg mb-4"
+            />
+            <p className="text-left text-xl md:text-2xl py-1 font-semibold">
+              Leave Management System
+            </p>
+            <p className="text-left text-sm md:text-base">
+             Developed a full-stack Online Leave Management System using the MERN stack to streamline employee leave requests and approvals
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3 xs:gap-1 xs:mt-2 sm:justify-start">
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                React
+              </div>
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                Mongo DB
+              </div>
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                Tailwind CSS
+              </div>
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                Node 
+              </div>
+                <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+               Express
+              </div>
+            </div>
+
+            <a
+              href="https://workpauselms.netlify.app/"
+              className="text-left mt-4 text-black font-bold"
+            >
+              <div className="flex items-center">
+                View Project
+                <span className="bg-[#ADFF00] ml-[2%] rounded-full p-2 text-black">
+                  <RiArrowRightUpLine />
+                </span>
+              </div>
+            </a>
+          </div>
           <div
             data-aos="fade-right"
             data-aos-easing="ease-in-sine"
@@ -52,7 +99,7 @@ const Projects = () => {
             </div>
 
             <a
-              href="https://projectdone.netlify.app"
+              href="https://laam.netlify.app/"
               className="text-left mt-4 text-black font-bold"
             >
               <div className="flex items-center">
@@ -95,7 +142,44 @@ const Projects = () => {
               </div>
             </div>
 
-            <a className="text-left font-bold mt-7 text-black">
+            <a className="text-left font-bold mt-7 text-black" href="https://github.com/mahasagheer/interior_design">
+              <div className="flex items-center">
+                View Project
+                <span className="bg-[#ADFF00] ml-[2%] rounded-full p-2 text-black">
+                  <RiArrowRightUpLine />
+                </span>
+              </div>
+            </a>
+          </div>
+           <div
+            data-aos="fade-left"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            className="border-2 border-black w-full sm:w-[48%] flex flex-col rounded-3xl p-4 sm:p-6"
+          >
+            <img
+              src={ProjectThree}
+              alt="E-commerce Website"
+              className="w-full h-auto rounded-lg mb-4"
+            />
+            <p className="text-left text-xl md:text-2xl py-1 font-semibold">
+              Turkiye Website
+            </p>
+            <p className="text-left text-sm md:text-base">
+Discover Turkey’s rich culture, traditions, and educational opportunities in one vibrant platform.            </p>
+            <div className="flex flex-wrap gap-2 mt-3 xs:gap-1 xs:mt-2 sm:justify-start">
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                HTML
+              </div>
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                CSS
+              </div>
+              <div className="border border-black p-2 px-4 rounded-full text-sm sm:text-base">
+                Javascript
+              </div>
+            </div>
+
+            <a className="text-left font-bold mt-7 text-black"  href="https://github.com/mahasagheer/turkiye">
               <div className="flex items-center">
                 View Project
                 <span className="bg-[#ADFF00] ml-[2%] rounded-full p-2 text-black">

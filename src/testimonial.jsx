@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import Image from "../src/assets/maham.png";
 import Quote from "../src/assets/quotes.png";
+import { useState } from "react";
 
 const testimonials = [
   {
@@ -10,12 +9,19 @@ const testimonials = [
     recommendation:
       "I had the pleasure of mentoring Maha Mohammad during their time as a frontend developer. Maha Mohammad has a natural ability to translate design concepts into fully functional, responsive, and visually appealing web interfaces. Their proficiency in modern frontend technologies, is truly impressive. What sets them apart is their attention to detail, ensuring cross-browser compatibility and accessibility in every project.",
   },
+   {
+    name: "Arooj Fatima",
+    post: "Software Quality Assurance",
+    main: "Versatile developer",
+    recommendation:
+      "I had the privilege of working with Maha Mohammad, a highly skilled frontend developer with a remarkable ability to turn complex design ideas into seamless, responsive, and visually captivating web experiences. Her expertise spans a wide range of technologies, making her a versatile developer. Maha's dedication to detail, especially in ensuring cross-browser compatibility and accessibility, consistently sets her apart in every project she undertakes.",
+  },
   {
     name: "Awais Shahbaz",
     post: "MERN Stack Developer",
     main: "Growing Developer",
     recommendation:
-      "I highly recommend for any frontend development role. During our time working together, [Developer's Name] consistently showcased a deep understanding of web development, especially in building responsive, user-friendly interfaces. Their ability to write clean, efficient code, paired with their expertise in frameworks like React and CSS preprocessors, made them an invaluable part of our team.",
+      "I highly recommend for any frontend development role. During our time working together, Maha Mohammad consistently showcased a deep understanding of web development, especially in building responsive, user-friendly interfaces. Their ability to write clean, efficient code, paired with their expertise in frameworks like React and CSS preprocessors, made them an invaluable part of our team.",
   },
 ];
 
@@ -29,7 +35,7 @@ const Testimonial = () => {
           💬 HEAR FROM THOSE
         </span>
         <span className="text-[6vw] md:text-[4vw] font-semibold leading-none block">
-          I'VE WORKED WITH!{" "}
+          I{"'"}VE WORKED WITH!{" "}
         </span>
       </header>
       <div className="relative overflow-hidden rounded-lg md:h-[80vh] sm:h-[50vh] xs:h-[50vh] flex items-center justify-center">

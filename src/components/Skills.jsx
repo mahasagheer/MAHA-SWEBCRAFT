@@ -1,8 +1,5 @@
-import React from "react";
 import {
-  RiBookLine,
   RiCodeBoxLine,
-  RiDatabase2Fill,
   RiDatabase2Line,
   RiLayout4Line,
   RiRobot2Line,
@@ -35,7 +32,7 @@ const Skills = () => {
               Frontend Development
             </p>
             <p className="text-lg text-center px-[2%]">
-              I am an expert in HTML, CSS, JavaScript (ES6), React JS
+              I am an expert in HTML, CSS, JavaScript (ES6), React JS, Next JS
             </p>
           </div>
 

@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import Intro from "./components/Intro";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import CV from "./assets/maha.pdf";
+import CV from "./assets/maha_mohammad.pdf";
 import Experience from "./components/Experience";
 import Testimonial from "./testimonial";
 import Footer from "../src/components/Footer";
@@ -56,7 +56,7 @@ function App() {
         </div>
         <div className="flex flex-row gap-4 md:gap-[10%] justify-evenly w-[90%] sm:w-[60%] pb-[3%] lg:w-[30%] ml-[5%] md:ml-[8%] mt-[2%]">
           <button className="cursor-pointer group relative items-center flex gap-1.5 px-6 py-3 bg-[#ADFF00] text-black rounded-full hover:bg-opacity-70 transition font-semibold shadow-md">
-            <span className="bg-white rounded-full p-1">👋</span> Let's Talk
+            <span className="bg-white rounded-full p-1">👋</span> Let{"'"}s Talk
           </button>
           <button>
             <a href={CV}>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { createPortal } from "react-dom";
 import { RiCloseLine, RiMailOpenLine, RiPhoneFill } from "@remixicon/react";
 
@@ -62,13 +62,13 @@ const HireMe = () => {
                     Share your details below, and I’ll be in touch to explore
                     how we can collaborate.
                   </p>
-                  <div className="flex gap-2 py-4">
-                    <RiMailOpenLine />
-                    <p>mahamohammad148@gmail.com</p>
+                  <div className="flex gap-2 py-4 flex-wrap items-center">
+                    <RiMailOpenLine size={"24px"}/>
+                    <p className="sm:text-base text-sm">mahamohammad24102002@gmail.com</p>
                   </div>
-                  <div className="flex gap-2">
-                    <RiPhoneFill />
-                    <p>Support: (+92) 319 2345678</p>
+                  <div className="flex gap-2 items-center">
+                    <RiPhoneFill size={"24px"}/>
+                    <p className="sm:text-base text-sm">(+92) 319 2345678</p>
                   </div>
                 </div>
                 <div className="w-full lg:w-[50%]">
@@ -77,8 +77,8 @@ const HireMe = () => {
                     className="flex flex-col p-4 gap-4 rounded-xl"
                   >
                     <p className="text-lg sm:text-lg lg:text-2xl text-left xs:font-semibold sm:font-semibold py-2 sm:py-0 xs:py-0">
-                      I'd love to hear from you!
-                      <br /> Let's get in touch.
+                      I{"'"}d love to hear from you!
+                      <br /> Let{"'"}s get in touch.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                       <input
